@@ -34,7 +34,7 @@ jobs:
 
       - uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::ACCOUNT_ID:role/github-oidc-deployer
+          role-to-assume: arn:aws:iam::468611216525:role/github-oidc-deployer
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Get ECR URL from Terraform
